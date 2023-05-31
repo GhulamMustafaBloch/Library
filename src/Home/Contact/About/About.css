@@ -1,0 +1,75 @@
+.about_us_page{
+    width: 70vw;
+    margin: auto;
+    padding-top: 100px;
+    direction: rtl;
+    font-family: jameel-Noori-Nastaleeq;
+}
+.about_us_page_content h1{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.about_us_page_content p{
+    font-size: 22px;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+.amtkn{
+    font-size: 26px;
+    color: brown;
+}
+.AUSB{
+    color: brown;
+}
+.about_us_page_orderd_list{
+    padding-top: 30px;
+}
+.about_us_page_orderd_list h2{
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 4px;
+}
+.about_us_page_orderd_list li{
+    font-size: 23px;
+}
+.khatm_e_nabowat_ke_omara{
+    margin: 100px;
+}
+.khatm_e_nabowat_ke_omara h2{
+    text-align: center;
+padding-bottom: 50px;
+font-size: 50px;
+font-family: jameel-Noori-Nastaleeq;
+}
+.khatm_e_nabowat_ke_omara_box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.khatm_e_nabowat_ke_omara .omra_box{
+    width: 355px;
+    background-color: gray;
+color: white;
+border-radius: 5px;
+}
+.khatm_e_nabowat_ke_omara .omra_box img{
+    width: 355px;
+    height: 415px;
+    border-radius: 5px 5px 0 0;
+}
+.khatm_e_nabowat_ke_omara .omra_box .omara_box_content{
+    padding: 15px;
+    font-family: jameel-Noori-Nastaleeq;
+    direction: rtl;
+    word-spacing: 4px;
+}
+.khatm_e_nabowat_ke_omara .omra_box .omara_box_content h3{
+    font-size: 27px;
+}
+.khatm_e_nabowat_ke_omara .omra_box .omara_box_content{
+    font-size: 20px;
+    text-align: justify;
+}

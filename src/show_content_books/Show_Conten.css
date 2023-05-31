@@ -1,0 +1,204 @@
+.show_content_nav {
+    height: 100px;
+    background: #2E363F;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    align-items: center;
+    padding: 0 40px;
+}
+.left_page {
+    font-family: jameel-Noori-Nastaleeq;
+    font-size: 27px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.left_page button {
+    font-family: jameel-Noori-Nastaleeq;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 27px;
+    border: none;
+    color: azure;
+    background: none;
+    cursor: pointer;
+}
+
+.left_page form{
+    height: 50px;
+display: flex;
+gap: 20px;
+}
+.left_page form input{
+    height: 50px;
+    width: 160px;
+    outline: none;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    direction: ltr;
+    font-size: 20px;
+    padding:0 10px;
+    color: azure;
+    background: none;
+}
+.left_page button input {
+    /* direction: ltr;
+    width: 120px;
+    height: 40px;
+    cursor: n-resize;
+    padding: 0 5px;
+    font-size: 22px; */
+}
+/* .left_page a {
+    text-decoration: none;
+} */
+.next_page {
+    cursor: pointer;
+}
+.books {
+    padding-top: 30px;
+    background-color: #FAF5F1;
+    margin-bottom: 0;
+    font-family: jameel-Noori-Nastaleeq;
+}
+.books_content {
+    border: 2px solid gray;
+    border-radius: 3px;
+    max-width: 95vw;
+    width: 850px;
+    margin: auto;
+    padding: 20px;
+    direction: rtl;
+}
+.books_content h1 {
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.books_content p {
+    font-size: 20px;
+    text-align: justify;
+}
+.books_content_page_and_num {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    font-size: 25px;
+    direction: ltr;
+}
+.books_content_page {
+    width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+.content_book_pera{
+    font-size: 40px;
+}
+.book_name_and_share{
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book_name_and_share button{
+    border-radius: 4px;
+    direction: rtl;
+    display: flex;
+justify-content: center;
+/* align-items: center; */
+gap: 20px;
+background: linear-gradient(#727a17,#414d0b);
+opacity: 0.8;
+}
+.Lowding{
+    background: linear-gradient(#16222A,#3A6073);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Lowding::after{
+    content: "";
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    border:  15px solid #dddddd;
+    border-top-color: #414d0b;
+    border-radius: 50%;
+    animation: loader 0.8s ease infinite;
+}
+@keyframes loader {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .show_content_nav{
+        height: 200px;
+        padding: 0 10px;
+        justify-content: center;
+        gap: 50px;
+    }
+    .left_page button{
+        direction: rtl;
+    }
+    .left_page form input{
+        width: 100px;
+    }
+    .left_page button{
+        width: 80px;
+    }
+    .left_page button{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    font-size: 21px;
+    }
+    .books{
+        background: none;
+    }
+    .books_content{
+        width: 90vw;
+        border: none;
+    }
+        .book_name_and_share button{
+            width: 140px;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+}
+@media only screen and (max-width: 410px) {
+    .show_content_nav{
+        gap: 20px;
+    }
+    .book_name_and_share button{
+        width: 100px;
+    }
+    .left_page form input {
+        width: 77px;
+    }
+    .left_page_bottom{
+        gap: 30px;
+    }
+    .left_page_bottom span{
+        display: flex;
+        justify-content: center;align-items: center;font-size: 18px;
+    }
+    .left_page form input{
+        padding: 0 3px;
+        font-size: 15px;
+    }
+    .content_book_pera{
+        font-size: 30px;
+    }
+}
