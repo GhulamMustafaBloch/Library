@@ -13,10 +13,10 @@ const ShowContent = () => {
   const perams = location.pathname.split("/book")[1].split("/");
   const [NumberInput, setNumberInput] = useState(perams[2]);
   const [SingleBook, setSingleBook] = useState(null);
-  const [PageNumber, setPageNumber] = useState(perams[2])
+  const [PageNumber, setPageNumber] = useState(perams[2]);
   const fetch = async () =>{
     const result =await axios(`${basicUrl}/book/${perams[1]}`);
-    setSingleBook(result.data)
+    setSingleBook(result.data);
   }
   useEffect(() => {
     fetch()
